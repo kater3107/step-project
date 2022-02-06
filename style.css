@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.introduction {
+    background-image: url(./img/bg-photo.png);
+    background-repeat: no-repeat;
+    height: 808px;
+    width: 1349px;
+    margin-top: -60px;
+}
+
+nav {
+    display: flex;
+    margin-top: 56px;
+    margin-right: 110px;
+    justify-content: space-between;
+}
+
+.nav-title {
+    font-family: Work Sans, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    color: #FCFCFC;
+    background-color: Transparent;
+    border: none;
+}
+
+.nav-title:hover {
+    transition: 0.5s;
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 32px;
+    padding: 6.5px 10px;
+}
+
+.left-part {
+    display: flex;
+    margin-left: 88px;
+    align-items: center;
+    justify-content: space-between;
+    width: 914px;
+    margin-top: 24px;
+}
+
+.nav-icons {
+    margin-top: 24px;
+}
+
+.intro-text {
+    width: 579px;
+    height: 201px;
+    margin-left: 88px;
+    margin-top: 178px;
+    font-family: Work Sans;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.free-lesson {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 280px;
+    margin-left: 88px;
+    margin-right: 88px;
+    margin-top: 195px;
+    background-image: url(./img/lesson-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1264px;
+    border-radius: 10px;
+    
+}
+
+.free-lesson-title {
+    font-family: Work Sans;
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.free-lesson-info {
+    font-family: Work Sans;
+    font-size: 24px;
+    line-height: 149%;
+    text-align: center;
+    color: #FFFFFF;
+    width: 616px;
+}
+
+.free-lesson-more {
+    padding: 8px 16px;
+    text-decoration: none;
+    margin-top: 16px;
+    background: #FF753A;
+    border-radius: 32px;
+    font-family: Work Sans;
+    font-size: 18px;
+    line-height: 130%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.free-lesson-more:hover {
+    background: white;
+    transition: 0.5s;
+    background: none;
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 32px;
+    padding: 6.5px 10px;
+}
+
+.guitars {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    height: 481px;
+    left: 88px;
+    right: 88px;
+    margin-top: 178px;
+}
+
+.accessories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    height: 481px;
+    left: 88px;
+    right: 88px;
+}
+
+
+.guitars-item,
+.accessories-item {
+    margin: 0;
+    margin-left: 5px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    margin-top: 90px;
+}
+
+.guitars-line,
+.accessories-line,
+.articles-line {
+    border: 1px solid #AB0433;
+    width: 80px;
+    margin-bottom: 8px;
+}
+
+.guitars-title,
+.accessories-title {
+    margin-top: 8px;
+    font-family: Work Sans;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 120%;
+    color: #505050;
+    margin-bottom: 34px;
+}
+
+.guitar-bg {
+    width: 400px;
+    height: 252px;
+    background: radial-gradient(98.56% 98.92% at 1.22% 1.08%, #FBFBFB 0%, #D3D3D3 100%);
+    border-radius: 10px 10px 0px 0px;
+    z-index: -2;
+    margin-top: -10px;
+}
+
+.guitar-photo {
+    z-index: -1;
+    margin-left: 56px;
+    width: 314px;
+    height: 260px;
+    margin-top: -300px;
+}
+
+.guitar-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 16px 24px 24px;
+    margin-top: -12px;
+    width: 352px;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+    margin-bottom: 40px;
+    filter: drop-shadow(0px 12px 32px rgba(0, 0, 0, 0.05));
+}
+
+.guitar-main,
+.accessories-main {
+    display: flex;
+    justify-content: space-between;
+    width: 347px;
+    height: 23px;
+    margin-top: -18px;
+}
+
+.guitar-price,
+.guitar-name,
+.accessories-name,
+.accessories-price {
+    font-family: Work Sans;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    text-align: right;
+    color: #252525;
+}
+
+.guitar-description,
+.accessories-description {
+    margin-top: 6px;
+    font-family: Work Sans;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    color: #767676;
+}
+
+.guitar-color {
+    margin-top: 30px;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 150%;
+    text-align: right;
+    color: #505050;
+    border: 1px solid #EAEAEA;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.swiper {
+    width: 90vw;
+}
+
+.accessories-bg {
+    background: #FFFFFF;
+    border-radius: 10px 10px 0px 0px;
+    height: 252px;
+    width: 400px;
+    z-index: -2;
+}
+
+.accessories-section {
+    margin-top: -30px;
+}
+
+.accessories-color {
+    margin-top: 30px;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 150%;
+    text-align: right;
+    color: #503232;
+    border: 1px solid #EAEAEA;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.accessories-photo {
+    z-index: -1;
+    margin-left: 56px;
+    width: 314px;
+    height: 260px;
+    margin-top: -320px;
+    margin-left: 38px;
+}
+
+.accessories-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 16px 24px 24px;
+    width: 352px;
+    height: 100px;
+    left: 0px;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+
+}
+
+.accessories-wrapper {
+    padding: 88px;
+    z-index: -9999;
+    height: 450px;
+    left: 0px;
+    right: 0px;
+    top: 1601px;
+    background: #ECECEC;
+}
+
+.articles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 88px;
+    left: 0px;
+    right: 0px;
+}
+
+.articles-title {
+    font-family: Work Sans;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 120%;
+    text-align: center;
+    color: #505050;
+}
+
+.first-line {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.first-line-photo {
+    padding: 10px;
+}
+
+.first-line-photo-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 32px ;
+    margin-top: -5px;
+    position: static;
+    width: 552px;
+    height: 50px;
+    left: 0px;
+    background: #EAEAEA;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.first-line-photo-title,
+.second-line-photo-title {
+    font-family: Work Sans;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 130%;
+    color: #202020;
+}
+
+.first-line-photo-subtitle,
+.second-line-photo-subtitle {
+    margin-top: 10px;
+    font-family: Work Sans;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    color: #767676;
+}
+
+.first-line-photo:hover .first-line-photo-info {
+    background: #252525;
+    transition: 0.5s;
+} 
+
+.first-line-photo:hover .first-line-photo-title {
+    color: white;
+    transition: 0.5s;
+} 
+
+.first-line-photo:hover.first-line-photo-subtitle {
+    color: #C4C4C4;
+    transition: 0.5s;
+}
+
+.second-line {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-line-photo {
+    padding: 10px;
+}
+
+.second-line-photo-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 32px;
+    margin-top: -5px;
+    position: static;
+    width: 336px;
+    height: 30px;
+    left: 0px;
+    top: 480px;
+    background: #EAEAEA;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.second-line-photo:hover .second-line-photo-info {
+    background: #252525;
+    transition: 0.5s;
+} 
+
+.second-line-photo:hover .second-line-photo-title {
+    color: white;
+    transition: 0.5s;
+} 
+
+.second-line-photo:hover.second-line-photo-subtitle {
+    color: #C4C4C4;
+    transition: 0.5s;
+}
+
+footer {
+    margin-top: 190px;
+}
+
+.first-footer {
+    display: flex;
+    background-color: grey;
+    height: 256px;
+    margin-top: -250px;
+}
+
+.second-footer {
+    height: 34px;
+    background: #252525;
+}
+
+.second-footer-text {
+    font-family: Montserrat;
+    font-size: 12.8px;
+    line-height: 140%;
+    color: #FFFFFF;
+    margin-left: 100px;
+    padding-top: 8px;
+}
+
+.account-part,
+.store-part {
+    padding-top: 62px;
+    margin-left: 100px;
+}
+
+.account-part-text,
+.store-part-text {
+    font-family: Work Sans;
+    font-size: 14px;
+    line-height: 130%;
+    color: #FFFFFF;
+    margin-bottom: 9px;
+}
+
+.footer-logo {
+    padding-top: 115px;
+    margin-left: 500px;
+}
